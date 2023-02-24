@@ -1,0 +1,36 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+
+}
+h1{
+    background-color: firebrick;
+    padding: 10px 30px;
+    color:#fff;
+    border-radius: 10px;
+    font-size: 35px;
+}
+h3{
+    color: blueviolet;
+    font-size: 30px;
+    border: 2px solid rgb(66, 214, 194);
+    border-radius: 05px;
+    padding: 10px 30px;
+    
+}
+p{
+    font-size: 30px;
+}
+.box-contador{
+display: flex;
+gap: 80px;
+
+}
+
+.contador{
+    
+    text-align: center;
+}
