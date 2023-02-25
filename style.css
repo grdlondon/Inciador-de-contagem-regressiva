@@ -7,8 +7,20 @@ body{
     height: 100vh;
 border: solid;
 
-
+@media screen  and (max-width: 760px;){
+    
 }
+
+ }
+   
+body{
+    @media screen and{
+       (max-width: 600px;) 
+    }
+}
+
+
+
 
 
 h1{
