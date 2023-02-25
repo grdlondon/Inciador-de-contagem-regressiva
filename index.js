@@ -6,11 +6,11 @@ let minutos = document.getElementById("minutos");
 
 let segundos = document.getElementById("segundos");
 
-const contagemparaonatal= "1 Jan 2024";
+const ContagemParaONatalEm= "1 Jan 2024";
 
 function contador(){
 
-    const contagemparaonatalData =  new Date(contagemparaonatal); 
+    const contagemparaonatalData =  new Date(ContagemParaONatalEm); 
 const dataatual = new Date();
 const totalsegundos= (contagemparaonatalData-dataatual) / 1000;
 
