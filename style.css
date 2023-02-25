@@ -6,7 +6,13 @@ body{
     background-image: linear-gradient(45deg, black, crimson);
     height: 100vh;
 border: solid;
-
+width: 1000px;
+height: 600px;
+position: relative;
+border-radius: 50px;
+color: rgb(220, 227, 230);
+margin-bottom: 0px;
+margin-right: 60px;
     
 }
 
@@ -26,7 +32,7 @@ h1{
 }
 
 h1:hover{
-    background-color: cyan;
+    background-color: rgba(233, 156, 13, 0.952);
     transition: 1s;
 }
 
@@ -43,7 +49,7 @@ h3{
 }
 
 h3:hover{
-    background-color: rgba(69, 174, 209, 0.76);
+    background-color: rgba(183, 231, 94, 0.76);
     transition: 1s;
 }
 
@@ -76,11 +82,12 @@ button{
     color: aliceblue;
     cursor: pointer;
     user-select: none;
-   
+   margin-top: 40px;
+   text-align: center;
 }
 
 button:hover{
-   background-color: aquamarine; 
+   background-color: rgba(50, 131, 236, 0.87); 
    transition: 1s;
       
 }
