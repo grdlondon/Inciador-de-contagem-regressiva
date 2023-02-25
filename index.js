@@ -23,7 +23,7 @@ horas.innerHTML= formatTime(horasconteudo);
 minutos.innerHTML= formatTime(minutosconteudo);
 segundos.innerHTML= formatTime(segundosconteudo);
 
-
+setInterval(contador,1000);
 
 }
 
@@ -31,7 +31,7 @@ function formatTime(time){
     return time < 10? `0${time}`: time;
 }
 
- contador();
+ 
 
-setInterval(contador,1000);
+
 

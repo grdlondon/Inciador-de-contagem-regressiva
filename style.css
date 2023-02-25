@@ -5,8 +5,12 @@ body{
     flex-direction: column;
     background-image: linear-gradient(45deg, black, crimson);
     height: 100vh;
+border: solid;
+
 
 }
+
+
 h1{
     background-color: rgb(223, 16, 9);
     padding: 10px 30px;
@@ -21,8 +25,9 @@ h1{
     
 }
 
-button:hover{
+h1:hover{
     background-color: cyan;
+    transition: 1s;
 }
 
 
@@ -35,6 +40,11 @@ h3{
     background-color: rgba(245, 33, 5, 0.904);
     cursor: pointer;
     user-select: none;
+}
+
+h3:hover{
+    background-color: rgba(69, 174, 209, 0.76);
+    transition: 1s;
 }
 
 button:hover{
@@ -71,7 +81,7 @@ button{
 
 button:hover{
    background-color: aquamarine; 
-   transition: background 1s;
+   transition: 1s;
       
 }
 
@@ -79,6 +89,7 @@ button:hover{
 .box-contador{
 display: flex;
 gap: 80px;
+
 
 }
 
