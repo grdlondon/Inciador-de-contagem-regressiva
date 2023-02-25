@@ -1,35 +1,34 @@
-const Dia  = document.getElementById("dia");
+let dia  = document.getElementById("dias");
 
-const Horas = document.getElementById("contador");
+let horas = document.getElementById("horas");
 
-const Minutos = document.getElementById("Minuto");
+let minutos = document.getElementById("minutos");
 
-const Segundos = document.getElementById("Segundo");
+let segundos = document.getElementById("segundos");
 
 const contagemparaonatal= "1 Jan 2024";
 
 function contador(){
 
-    const contagemparaonatalData = Date(contador); 
-const dataatual = novaData();
+    const contagemparaonatalData =  new Date(contagemparaonatal); 
+const dataatual = new Date();
 const totalsegundos= (contagemparaonatalData-dataatual) / 1000;
 
-const dia = Math.floor(totalsegundos/3600 / 24);
-const horas = Math.floor(totalsegundos / 3600) % 24;
-const minutos = Math.floor(totalsegundos /60)% 60;
-const segundos = Math.floor(totalsegundos) % 60;
+  let diaconteudo = Math.floor(totalsegundos/3600 / 24);
+  let horasconteudo = Math.floor(totalsegundos / 3600) % 24;
+  let minutosconteudo = Math.floor(totalsegundos /60)% 60;  let segundosconteudo = Math.floor(totalsegundos) % 60;
 
-dia.innerHTML = dia;
-horas.innerHTML= formatTime(horas);
-minutos.innerHTML= formatTime(minutos);
-segundos.innerHTML= formatTime(segundos);
+dia.innerHTML = formatTime(diaconteudo);
+horas.innerHTML= formatTime(horasconteudo);
+minutos.innerHTML= formatTime(minutosconteudo);
+segundos.innerHTML= formatTime(segundosconteudo);
 
 
 
 }
 
 function formatTime(time){
-    return time < 10 ? "0${time}": time
+    return time < 10? `0${time}`: time;
 }
 
  contador();
