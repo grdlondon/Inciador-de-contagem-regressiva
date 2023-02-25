@@ -1,28 +1,28 @@
 const Dia  = document.getElementById("dia");
 
-const Horas = document.getElementById("contador");
+const Horas = document.getElementById("Horas");
 
 const Minutos = document.getElementById("Minuto");
 
 const Segundos = document.getElementById("Segundo");
 
-const contagemparaonatal= "1 Jan 2024";
+const ContagemParaONatalEm= "1 Jan 2024";
 
 function contador(){
 
-    const contagemparaonatalData = Date(contador); 
-const dataatual = novaData();
-const totalsegundos= (contagemparaonatalData-dataatual) / 1000;
+    const ContagemParaONatalEmData = Date(contador); 
+const DataAtual = novadata();
+const TotalSegundos= (ContagemParaONatalEmData-DataAtual) / 1000;
 
-const dia = Math.floor(totalsegundos/3600 / 24);
-const horas = Math.floor(totalsegundos / 3600) % 24;
-const minutos = Math.floor(totalsegundos /60)% 60;
-const segundos = Math.floor(totalsegundos) % 60;
+const Dia = Math.floor(TotalSegundos/3600 / 24);
+const Horas = Math.floor(TotalSegundos / 3600) % 24;
+const Minutos = Math.floor(TotalSegundos /60)% 60;
+const Segundos = Math.floor(TotalSegundos) % 60;
 
-dia.innerHTML = dia;
-horas.innerHTML= formatTime(horas);
-minutos.innerHTML= formatTime(minutos);
-segundos.innerHTML= formatTime(segundos);
+Dia.innerHTML = dia;
+Horas.innerHTML= formatTime(Horas);
+Minutos.innerHTML= formatTime(Minutos);
+Segundos.innerHTML= formatTime(Segundos);
 
 
 
