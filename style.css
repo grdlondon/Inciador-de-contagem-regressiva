@@ -4,15 +4,16 @@ body{
     align-items: center;
     flex-direction: column;
     background-image: linear-gradient(45deg, black, crimson);
-    height: 100vh;
-border: solid;
-width: 1000px;
-height: 600px;
-position: relative;
-border-radius: 50px;
-color: rgb(220, 227, 230);
-margin-bottom: 0px;
-margin-right: 60px;
+    border: solid;
+   width: 1000px;
+   height: 600px;
+   position: relative;
+   border-radius: 50px;
+   color: rgb(220, 227, 230);
+   margin-bottom: 0px;
+   margin-right: 60px;
+   left: 100px;
+   top: 30px
     
 }
 
